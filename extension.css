@@ -1,8 +1,9 @@
-<<<<<<< HEAD
+
 body{
     font-family:Arial, Helvetica, sans-serif;
     padding-left:10px;
     padding-right:10px;
+   
 }
 .feild{
     display:flex;
@@ -119,7 +120,7 @@ color: #2bbb11;
     justify-content: center;
     gap: 15px;
 }
-=======
+
 body{
     font-family:Arial, Helvetica, sans-serif;
     padding-left:10px;
@@ -208,4 +209,4 @@ color: #2bbb11;
     border-radius:5px;
     cursor:pointer;
 }
->>>>>>> a5d83bb5c0223882c5b53b91f63e237bffc8c835
+
