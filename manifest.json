@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "manifest_version": 3,
   "version": "1.1",
@@ -11,4 +12,19 @@
     "default_popup": "extension.html",
     "default_icon": "icon.png"
   }
+=======
+{
+  "manifest_version": 3,
+  "version": "1.1",
+  "name": "leads tracker",
+
+  "permissions": [
+    "tabs"
+  ],
+
+  "action": {
+    "default_popup": "extension.html",
+    "default_icon": "icon.png"
+  }
+>>>>>>> a5d83bb5c0223882c5b53b91f63e237bffc8c835
 }
