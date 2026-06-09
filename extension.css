@@ -1,0 +1,120 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    padding-left:10px;
+    padding-right:10px;
+}
+.feild{
+    display:flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    padding-top:40px;
+    gap:20px;
+  min-width: 400px;
+}
+#input-btn{
+    padding:10px 20px;
+    height:45px;
+    width:90px;
+    font-size:16px;
+    background-color:#2bbb11;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+#input-el{
+    padding:10px;
+    font-size:16px;
+    border:1px solid #000000;
+    border-radius:5px;
+    width:50%;
+padding-left: 10px;
+box-sizing:border-box;
+}
+#input-el2{
+    padding:10px;
+    font-size:16px;
+    border:1px solid #000000;
+    border-radius:5px;
+    width:50%;
+padding-left: 10px;
+box-sizing:border-box;
+}
+ul{
+list-style: none;
+}
+li{
+margin-top: 2.5px;
+}
+li a{/*we will only change the styling of anchor tags in list*/
+color: #2bbb11;
+}
+#list{
+    display:flex;
+    flex-direction: column;
+    align-items:flex-start;
+    padding-left:0;
+    margin:0;
+}
+.buttons{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap:20px;
+}
+#delete-btn{
+    padding:10px 20px;
+    height:45px;
+    width:90px;
+    font-size:16px;
+    background-color:#2bbb11;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+#tab-btn{
+     padding:10px 10px;
+    height:45px;
+    width:90px;
+    font-size:16px;
+    background-color:#2bbb11;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+.lead-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap :20px
+}
+.edit-btn{
+    
+    height:30px;
+    width:50px;
+    font-size:16px;
+    background-color:#2bbb11;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+.lead-message{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap :20px
+}
+.outer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 15px;
+}
